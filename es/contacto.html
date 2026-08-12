@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Nico G. Naval</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="logo">Nico G. Naval</div>
+
+    <nav class="menu-principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="videos.html">Vídeos</a></li>
+        <li><a href="reflexiones.html">Reflexiones</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="selector-idioma">
+      <a href="contacto.html">ES</a> ·
+      <a href="../gl/contacto.html">GL</a> ·
+      <a href="../en/contacto.html">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="contacto">
+      <h1>Contacto</h1>
+      <p class="contacto-intro">
+        Si quieres escribirme por clases, contrataciones, o simplemente para saludar, puedes usar este formulario.
+      </p>
+
+      <form action="https://formspree.io/f/xkjwrqrr" method="POST" class="formulario-contacto">
+
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="campo">
+          <label for="asunto">Asunto</label>
+          <select id="asunto" name="asunto">
+            <option value="Clases">Clases</option>
+            <option value="Contratación de conciertos">Contratación de conciertos</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="boton-secundario">Enviar mensaje</button>
+
+      </form>
+    </section>
+  </main>
+
+ <footer class="pie">
+  <p>&copy; 2026 Nico G. Naval</p>
+  <p class="credito-foto">Fotografía: Alberte Peiteavel</p>
+  <a href="https://facebook.com/nicolas.gomeznaval" target="_blank" rel="noopener" class="enlace-facebook">Facebook</a>
+</footer>
+
+  <script src="../js/principal.js"></script>
+</body>
+</html>

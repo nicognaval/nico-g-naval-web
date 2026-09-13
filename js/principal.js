@@ -50,8 +50,12 @@ eventosAgenda.forEach(evento => {
 const menuToggle = document.querySelector('.menu-toggle');
 const menuPrincipal = document.querySelector('.menu-principal');
 
+function alternarMenu(e) {
+  e.preventDefault();
+  menuPrincipal.classList.toggle('abierto');
+}
+
 if (menuToggle && menuPrincipal) {
-  menuToggle.addEventListener('click', () => {
-    menuPrincipal.classList.toggle('abierto');
-  });
+  menuToggle.addEventListener('click', alternarMenu);
+  menuToggle.addEventListener('touchend', alternarMenu);
 }

@@ -45,3 +45,13 @@ eventosAgenda.forEach(evento => {
     evento.classList.add('evento-pasado');
   }
 });
+
+// Menú móvil (hamburguesa)
+const menuToggle = document.querySelector('.menu-toggle');
+const menuPrincipal = document.querySelector('.menu-principal');
+
+if (menuToggle && menuPrincipal) {
+  menuToggle.addEventListener('click', () => {
+    menuPrincipal.classList.toggle('abierto');
+  });
+}

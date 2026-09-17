@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reflexións | Nico G. Naval</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="logo">Nico G. Naval</div>
+
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
+    <nav class="menu-principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="axenda.html">Axenda</a></li>
+        <li><a href="videos.html">Vídeos</a></li>
+        <li><a href="reflexions.html" class="activo">Reflexións</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="selector-idioma">
+      <a href="../es/reflexiones.html">ES</a> ·
+      <a href="reflexions.html">GL</a> ·
+      <a href="../en/reflexiones.html">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="reflexiones">
+
+      <div class="reflexiones-imagen">
+        <img src="../imagenes/reflexiones.jpg" alt="Nico G. Naval">
+      </div>
+
+      <div class="reflexiones-contenido">
+        <h1>Reflexións</h1>
+
+        <div class="filtro-etiquetas">
+          <a href="#" class="etiqueta-filtro activa" data-etiqueta="todas">Todas</a>
+          <a href="#" class="etiqueta-filtro" data-etiqueta="tecnica">Técnica</a>
+          <a href="#" class="etiqueta-filtro" data-etiqueta="audicions">Audicións</a>
+          <a href="#" class="etiqueta-filtro" data-etiqueta="vida-orquestral">Vida orquestral</a>
+          <a href="#" class="etiqueta-filtro" data-etiqueta="aprendizaxes">Aprendizaxes</a>
+        </div>
+
+        <ul class="lista-articulos">
+
+          <li class="articulo-item" data-etiqueta="vida-orquestral">
+            <a href="articulos/ejemplo-articulo.html" class="articulo-enlace">
+              <span class="articulo-fecha">12 agosto 2026</span>
+              <h2>Título do primeiro artigo</h2>
+              <p class="articulo-etiqueta">Vida orquestral</p>
+            </a>
+          </li>
+
+          <li class="articulo-item" data-etiqueta="tecnica">
+            <a href="articulos/segundo-articulo.html" class="articulo-enlace">
+              <span class="articulo-fecha">3 xullo 2026</span>
+              <h2>Título do segundo artigo</h2>
+              <p class="articulo-etiqueta">Técnica</p>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>&copy; 2026 Nico G. Naval</p>
+    <p class="credito-foto">Fotografía: Alberte Peiteavel</p>
+    <a href="https://facebook.com/nicolas.gomeznaval" target="_blank" rel="noopener" class="enlace-facebook">Facebook</a>
+  </footer>
+
+  <script src="../js/principal.js"></script>
+</body>
+</html>

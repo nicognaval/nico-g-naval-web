@@ -745,3 +745,23 @@ html, body {
     margin-top: 0.8rem;
   }
 }
+
+/* ===== Corrección de desbordamiento en Agenda (móvil) ===== */
+.evento-info {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.evento-info p {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .evento-agenda {
+    flex-wrap: wrap;
+  }
+
+  .evento-foto {
+    order: -1;
+  }
+}

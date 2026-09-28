@@ -26,12 +26,13 @@ filtros.forEach(filtro => {
     const etiquetaSeleccionada = filtro.dataset.etiqueta;
 
     articulos.forEach(articulo => {
-      if (etiquetaSeleccionada === 'todas' || articulo.dataset.etiqueta === etiquetaSeleccionada) {
-        articulo.classList.remove('oculto');
-      } else {
-        articulo.classList.add('oculto');
-      }
-    });
+  const etiquetasArticulo = articulo.dataset.etiqueta.split(' ');
+  if (etiquetaSeleccionada === 'todas' || etiquetasArticulo.includes(etiquetaSeleccionada)) {
+    articulo.classList.remove('oculto');
+  } else {
+    articulo.classList.add('oculto');
+  }
+});
   });
 });
 // Marcar en gris los conciertos ya celebrados

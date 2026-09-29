@@ -611,6 +611,20 @@ a {
   font-size: 1rem;
   line-height: 1.8;
 }
+
+.articulo-imagen {
+  width: 100%;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+.articulo-pie-foto {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
 /* ===== Contacto ===== */
 .contacto {
   max-width: 650px;

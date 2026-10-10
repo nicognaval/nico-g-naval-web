@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://nicognaval.es/</loc></url>
+
+  <!-- Castellano -->
+  <url><loc>https://nicognaval.es/es/index.html</loc></url>
+  <url><loc>https://nicognaval.es/es/biografia.html</loc></url>
+  <url><loc>https://nicognaval.es/es/agenda.html</loc></url>
+  <url><loc>https://nicognaval.es/es/videos.html</loc></url>
+  <url><loc>https://nicognaval.es/es/reflexiones.html</loc></url>
+  <url><loc>https://nicognaval.es/es/contacto.html</loc></url>
+  <url><loc>https://nicognaval.es/es/articulos/calentar-o-no-calentar.html</loc></url>
+  <url><loc>https://nicognaval.es/es/articulos/estas-estudiando-menos.html</loc></url>
+
+  <!-- Galego -->
+  <url><loc>https://nicognaval.es/gl/index.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/biografia.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/axenda.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/videos.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/reflexions.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/contacto.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/articulos/quecer-ou-non-quecer.html</loc></url>
+  <url><loc>https://nicognaval.es/gl/articulos/estas-estudiando-menos.html</loc></url>
+
+  <!-- English -->
+  <url><loc>https://nicognaval.es/en/index.html</loc></url>
+  <url><loc>https://nicognaval.es/en/biografia.html</loc></url>
+  <url><loc>https://nicognaval.es/en/agenda.html</loc></url>
+  <url><loc>https://nicognaval.es/en/videos.html</loc></url>
+  <url><loc>https://nicognaval.es/en/reflexiones.html</loc></url>
+  <url><loc>https://nicognaval.es/en/contacto.html</loc></url>
+  <url><loc>https://nicognaval.es/en/articulos/to-warm-up-or-not.html</loc></url>
+  <url><loc>https://nicognaval.es/en/articulos/estas-estudiando-menos.html</loc></url>
+
+</urlset>
